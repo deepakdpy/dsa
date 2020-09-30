@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
+///Mergesort Algorithm
+
 void merge(int *arr, int l, int m, int r)
 {
     int i, j, k;
