@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-
+///Quick Sort Algorith
 void swap(int *a, int *b)
 {
     int t = *a;
