@@ -1,8 +1,10 @@
+//Algorithm of insertion sort
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
 
-//Algorithm of insertion sort
+
 void insertionSort(int *a, int n)
 {
     int i, j, temp;
@@ -12,7 +14,7 @@ void insertionSort(int *a, int n)
         j = i;
         while (a[j - 1] > temp && j >= 1)
         {
-            a[j] = a[j - 1];
+            a[j] = a[j-1];
             j--;
         }
         a[j] = temp;
