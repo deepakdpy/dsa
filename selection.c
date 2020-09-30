@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-
-void selectionSort(int *a, int n)
+///Selection Sort Algorithm
+void selectionSort(int *a, int n) 
 {
     int i, j, min, temp;
     for (i = 0; i < n - 1; i++)
@@ -26,9 +26,9 @@ void selectionSort(int *a, int n)
 void display(int *a, int n)
 {
     printf("\n");
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i<n; i++)
     {
-        printf("%d\t", a[i]);
+        printf("%d \t", a[i]);
     }
     printf("\n");
 }
